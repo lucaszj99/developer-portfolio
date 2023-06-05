@@ -149,6 +149,22 @@ const Navigation = () => {
                     </NavLink>
                   </NavItem>
                 )}
+                {greetings.resumeLink && (
+                  <NavItem>
+                    <NavLink
+                      rel="noopener"
+                      aria-label="Resume"
+                      className="nav-link-icon"
+                      href={greetings.resumeLink}
+                      target="_blank"
+                    >
+                      <i className="fa fa-download" />
+                      <span className="nav-link-inner--text d-lg-none ml-2">
+                        Download Resume
+                      </span>
+                    </NavLink>
+                  </NavItem>
+                )}
               </Nav>
             </UncontrolledCollapse>
           </Container>

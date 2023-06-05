@@ -14,7 +14,7 @@ const Greetings = () => {
     <main>
       <div className="position-relative">
         <section className="section section-lg section-shaped pb-250">
-          <div className="shape shape-style-1 bg-gradient-warning">
+          <div className="shape shape-style-1 bg-gradient-dark">
             <span />
             <span />
             <span />
@@ -44,13 +44,13 @@ const Greetings = () => {
                         <span className="btn-inner--icon mr-1">
                           <i className="fa fa-file" />
                         </span>
-                        <span className="btn-inner--text">See My Resume</span>
+                        <span className="btn-inner--text">Download Resume</span>
                       </Button>
                     </div>
                   )}
                 </Col>
                 <Col lg="6">
-                  <GreetingLottie animationPath="/lottie/coding.json" />
+                  <GreetingLottie animationPath="/lottie/programming-computer.json" />
                 </Col>
               </Row>
             </div>

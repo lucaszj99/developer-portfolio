@@ -37,7 +37,7 @@ export const socialLinks: SocialLinksType = {
 
 export const skillsSection: SkillsSectionType = {
   title: 'What I do',
-  subTitle: 'CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK',
+  subTitle: 'Full Stack Developer who wants to explore every tech stack',
   data: [
     {
       title: 'Full Stack Development',
@@ -46,21 +46,18 @@ export const skillsSection: SkillsSectionType = {
         emoji(
           '⚡ Building responsive Single-Page-Apps (SPA) & PWA in React.js'
         ),
-        emoji('⚡ Building responsive static websites using Next.js'),
-        emoji('⚡ Building RESTful APIs in Django & Django REST Framework'),
+        emoji('⚡ Building responsive websites using Next.js'),
+        emoji('⚡ Building RESTful APIs in NodeJs & Nestjs Framework'),
+        emoji('⚡ Postgresql , MySQL & Redis Database Management'),
       ],
       softwareSkills: [
         {
-          skillName: 'HTML-5',
-          fontAwesomeClassName: 'vscode-icons:file-type-html',
-        },
-        {
-          skillName: 'CSS-3',
-          fontAwesomeClassName: 'vscode-icons:file-type-css',
-        },
-        {
           skillName: 'JavaScript',
           fontAwesomeClassName: 'logos:javascript',
+        },
+        {
+          skillName: 'TypeScript',
+          fontAwesomeClassName: 'vscode-icons:file-type-typescript',
         },
         {
           skillName: 'Reactjs',
@@ -71,6 +68,14 @@ export const skillsSection: SkillsSectionType = {
           fontAwesomeClassName: 'vscode-icons:file-type-light-next',
         },
         {
+          skillName: 'Nestjs',
+          fontAwesomeClassName: 'vscode-icons:file-type-nestjs',
+        },
+        {
+          skillName: 'Graphql',
+          fontAwesomeClassName: 'vscode-icons:file-type-graphql',
+        },
+        {
           skillName: 'Python',
           fontAwesomeClassName: 'logos:python',
         },
@@ -78,18 +83,13 @@ export const skillsSection: SkillsSectionType = {
           skillName: 'Django',
           fontAwesomeClassName: 'vscode-icons:file-type-django',
         },
-
         {
-          skillName: 'Redux',
-          fontAwesomeClassName: 'logos:redux',
+          skillName: 'Java',
+          fontAwesomeClassName: 'logos:java',
         },
         {
-          skillName: 'NPM',
-          fontAwesomeClassName: 'logos:npm-icon',
-        },
-        {
-          skillName: 'Yarn',
-          fontAwesomeClassName: 'logos:yarn',
+          skillName: 'Spring Boot',
+          fontAwesomeClassName: 'logos:spring-icon',
         },
       ],
     }
