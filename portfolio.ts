@@ -41,12 +41,9 @@ export const skillsSection: SkillsSectionType = {
   data: [
     {
       title: 'Full Stack Development',
-      lottieAnimationFile: '/lottie/skills/fullstack.json', // Path of Lottie Animation JSON File
+      lottieAnimationFile: '/lottie/skills/developer-lottie.json', // Path of Lottie Animation JSON File
       skills: [
-        emoji(
-          '⚡ Building responsive Single-Page-Apps (SPA) & PWA in React.js'
-        ),
-        emoji('⚡ Building responsive websites using Next.js'),
+        emoji('⚡ Building responsive websites using Next.js / React.js'),
         emoji('⚡ Building RESTful APIs in NodeJs & Nestjs Framework'),
         emoji('⚡ Postgresql , MySQL & Redis Database Management'),
       ],
@@ -131,7 +128,7 @@ export const experience: ExperienceType[] = [
   {
     role: 'Junior Software Developer',
     company: 'One2Deal Sdn Bhd',
-    companyLogo: '/img/icons/common/dusecaSoftware.jpg',
+    companyLogo: '/img/icons/common/one2deal.jpeg',
     date: 'Oct 2022 – Present',
     desc: `Design and develop an Enterprise Resource Planning (ERP) solution for a ecommerce company to handle their inventory, order, shipping, and accounting management.`,
     descBullets:[`API integration involving FedEx, WooCommerce, Easy Parcel & Shopee`,
@@ -141,7 +138,7 @@ export const experience: ExperienceType[] = [
   {
     role: 'Junior Software Developer',
     company: 'Grandshopware Sdn Bhd',
-    companyLogo: '/img/icons/common/dusecaSoftware.jpg',
+    companyLogo: '/img/icons/common/grandshopware.png',
     date: 'Jan 2022 – Mar 2022',
     desc: 'Design and develop an Enterprise Resource Planning (ERP) solution from scratch.',
     descBullets:[`Engage in ongoing discussions with clients to gather and clarify requirements.`,
@@ -152,7 +149,7 @@ export const experience: ExperienceType[] = [
   {
     role: 'Software Engineer (Part-time & Intern)',
     company: 'Leocode Sdn Bhd',
-    companyLogo: '/img/icons/common/bleedAI.jpg',
+    companyLogo: '/img/icons/common/leocode.png',
     date: 'Dec 2019 - June 2021',
     desc: `Participated in client meetings to discuss project requirements. Assist with development of new features and bug fixes.`,
     descBullets:[
