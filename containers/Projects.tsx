@@ -6,7 +6,7 @@ import ProjectsCard from '../components/ProjectsCard';
 const Projects = () => {
   return (
     projects && (
-      <section className="section section-lg">
+      <section className="section section-lg bg-project">
         <Container>
           <div className="d-flex p-4">
             <div>
@@ -24,6 +24,19 @@ const Projects = () => {
             })}
           </Row>
         </Container>
+
+        <div className="separator separator-bottom separator-skew zindex-100">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            preserveAspectRatio="none"
+            version="1.1"
+            viewBox="0 0 2560 100"
+            x="0"
+            y="0"
+          >
+            <polygon className="fill-gray" points="0 0 0 100 2560 100" />
+          </svg>
+        </div>
       </section>
     )
   );

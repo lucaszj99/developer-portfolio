@@ -159,6 +159,17 @@ export const experience: ExperienceType[] = [
 ];
 
 export const projects: ProjectType[] = [
+  {
+    name: 'Real Time Business Occupancy Tracking System (ReBOT)',
+    github:'',
+    desc: `Develop an web & mobile application for premise to track in-store occupancy and
+    record customer visits`,
+  },
+
+  {
+    name: 'Coming Soon ...',
+    desc:'Work in progress ...'
+  }
 ];
 
 // export const feedbacks: FeedbackType[] = [

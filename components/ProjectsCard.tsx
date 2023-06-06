@@ -7,7 +7,7 @@ const ProjectsCard = ({ name, desc, github, link }: ProjectType) => {
   return (
     <Col lg="6">
       <Fade bottom duration={2000}>
-        <Card className="shadow-lg--hover shadow mt-4">
+        <Card className="shadow-lg--hover shadow mt-4 bg-gray">
           <CardBody>
             <div className="d-flex px-3">
               <div className="pl-4">

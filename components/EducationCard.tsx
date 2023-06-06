@@ -13,7 +13,7 @@ const EducationCard = ({
 }: EducationType) => {
   return (
     <Fade left duration={2000}>
-      <Card className="card-lift--hover shadow mt-4">
+      <Card className="card-lift--hover mt-4 bg-gray ">
         <CardBody>
           <div className="d-flex px-3">
             <div className="pl-4">
@@ -31,8 +31,8 @@ const EducationCard = ({
               <ul>
                 {descBullets
                   ? descBullets.map((desc) => {
-                      return <li key={desc}>{desc}</li>;
-                    })
+                    return <li key={desc}>{desc}</li>;
+                  })
                   : null}
               </ul>
             </div>
