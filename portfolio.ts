@@ -168,7 +168,7 @@ export const projects: ProjectType[] = [
 
   {
     name: 'Real Time Business Occupancy Tracking System (ReBOT)- App',
-    github:'https://github.com/lucaszj99/rebotapp',
+    github:'https://github.com/lucaszj99/rebot-app',
     desc: `Mobile application for check in and out of premise and reserve a slot for visits`,
   },
 
