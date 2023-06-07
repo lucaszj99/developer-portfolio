@@ -17,7 +17,7 @@ export const greetings: GreetingsType = {
   description:
     "Hello! I am a software developer with four years of experience. My passion for learning and tackling new challenges has been the driving force behind my career. I am always eager to explore the latest technologies, continuously improving my skills to reach new milestones. I believe that my dedication, adaptability, and commitment to growth make me an ideal candidate for any innovative organization.",
   resumeLink:
-    'https://drive.google.com/file/d/10MYO87kWXCjR_fjDhCXab6TIrw3wPDBy/view?usp=sharing',
+    'https://drive.google.com/file/d/1yiLNSO8bIb_eJILL-gldVWZsLLRArmZO/view?usp=sharing',
 };
 
 export const openSource = {
