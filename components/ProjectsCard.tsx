@@ -1,13 +1,14 @@
 import React from 'react';
-import { Card, CardBody, Col, Button } from 'reactstrap';
+import { Card, CardBody, Col, Button, Row } from 'reactstrap';
 import Fade from 'react-reveal/Fade';
 import { ProjectType } from '../types/sections';
 
 const ProjectsCard = ({ name, desc, github, link }: ProjectType) => {
   return (
-    <Col lg="6">
+    <Col lg="6" className='align-self-stretch'> 
       <Fade bottom duration={2000}>
-        <Card className="shadow-lg--hover shadow mt-4 bg-gray">
+        <Card className="shadow-lg--hover shadow mt-4 bg-gray"
+         style={{height:'25vh'}}>
           <CardBody>
             <div className="d-flex px-3">
               <div className="pl-4">

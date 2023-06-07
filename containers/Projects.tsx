@@ -15,10 +15,10 @@ const Projects = () => {
               </div>
             </div>
             <div className="pl-4">
-              <h4 className="display-3 text-info">Projects</h4>
+              <h4 className="display-3 text-white">Projects</h4>
             </div>
           </div>
-          <Row className="row-grid align-items-center">
+          <Row className="align-items-center">
             {projects.map((data, i) => {
               return <ProjectsCard key={i} {...data} />;
             })}

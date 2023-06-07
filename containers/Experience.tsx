@@ -7,7 +7,7 @@ const Experience = () => {
   return (
     experience && (
       <section className="section section-lg bg-dimgrey">
-        <Container>
+        <Container className='d-flex flex-column'>
           <div className="d-flex p-4">
             <div>
               <div className="icon icon-lg icon-shape bg-gradient-white shadow rounded-circle text-info">
@@ -15,10 +15,10 @@ const Experience = () => {
               </div>
             </div>
             <div className="pl-4">
-              <h4 className="display-3 text-info">Experience</h4>
+              <h4 className="display-3 text-white">Experience</h4>
             </div>
           </div>
-          <Row className="row-grid align-items-start">
+          <Row className="d-flex align-items-center">
             {experience.map((data, i) => {
               return <ExperienceCard key={i} {...data} />;
             })}

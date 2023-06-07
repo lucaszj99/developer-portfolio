@@ -19,17 +19,16 @@ const ExperienceCard = ({
   descBullets,
 }: ExperienceType) => {
   return (
-    <Col lg="6">
+    <Col lg="6" className='align-self-stretch'>
       <Fade left duration={2000}>
         <Card
-          style={{ flex: 1 }}
-          className="shadow-lg--hover mb-3 shadow border-0 text-center rounded bg-gray"
+          className="mh-100 shadow-lg--hover mb-3 shadow border-0 text-center rounded bg-gray"
+          style={{ height: '50vh' }}
         >
-          <CardBody className="">
+          <CardBody>
             <img
               src={companyLogo}
               style={{
-                objectFit: 'cover',
                 left: 0,
                 right: 0,
                 top: '7rem',
