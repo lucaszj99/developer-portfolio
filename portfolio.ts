@@ -160,15 +160,21 @@ export const experience: ExperienceType[] = [
 
 export const projects: ProjectType[] = [
   {
-    name: 'Real Time Business Occupancy Tracking System (ReBOT)',
-    github:'',
-    desc: `Develop an web & mobile application for premise to track in-store occupancy and
+    name: 'Real Time Business Occupancy Tracking System (ReBOT) -Merchant',
+    github:'https://github.com/lucaszj99/rebot_merchant',
+    desc: `Web application for premise to track in-store occupancy and
     record customer visits`,
   },
 
   {
-    name: 'Coming Soon ...',
-    desc:'Work in progress ...'
+    name: 'Real Time Business Occupancy Tracking System (ReBOT)- App',
+    github:'https://github.com/lucaszj99/rebotapp',
+    desc: `Mobile application for check in and out of premise and reserve a slot for visits`,
+  },
+
+  {
+    name: 'Working Hard',
+    desc:'Trying to make more projects... Coming soon!'
   }
 ];
 

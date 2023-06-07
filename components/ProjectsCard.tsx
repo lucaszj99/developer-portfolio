@@ -5,10 +5,10 @@ import { ProjectType } from '../types/sections';
 
 const ProjectsCard = ({ name, desc, github, link }: ProjectType) => {
   return (
-    <Col lg="6" className='align-self-stretch'> 
+    <Col lg="6" className='align-self-stretch '> 
       <Fade bottom duration={2000}>
         <Card className="shadow-lg--hover shadow mt-4 bg-gray"
-         style={{height:'25vh'}}>
+         style={{height:'35vh'}}>
           <CardBody>
             <div className="d-flex px-3">
               <div className="pl-4">
