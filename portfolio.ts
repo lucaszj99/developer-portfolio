@@ -185,8 +185,8 @@ export const seoData: SEODataType = {
   description:
     'A passionate Software Developer.',
   author: 'Lucas Wong',
-  image: 'https://avatars3.githubusercontent.com/u/59178380?v=4',
-  // url: 'https://developer-portfolio-lucas.vercel.app',
+  image: 'https://drive.google.com/file/d/155bvxqXMiEFE5AnSaO8erwTLJdpc0DM5/view?usp=drivesdk',
+  url: 'https://lucas-wong-portfolio.vercel.app/',
   keywords: [
     'Lucas Wong',
     '@lucaszj99',
