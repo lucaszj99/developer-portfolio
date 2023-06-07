@@ -26,7 +26,6 @@ export default function Home({
       <Navigation />
       <Greetings />
       <Skills />
-      <Proficiency />
       <Education />
       <Experience />
       <Projects />
